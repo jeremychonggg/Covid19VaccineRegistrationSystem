@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DataIO {
-    public static ArrayList<People> allPeople = new ArrayList<People>();
+    //public static ArrayList<People> allPeople = new ArrayList<People>();
     
     public static void read() {
         try{
@@ -14,8 +14,8 @@ public class DataIO {
                 String a = s.nextLine(); 
                 int b = Integer.parseInt(s.nextLine());
                 s.nextLine(); 
-                People c = new People(a,b); 
-                allPeople.add(c); 
+                //People c = new People(a,b); 
+                //allPeople.add(c); 
             }
         } catch(Exception e) {
             System.out.println("Error in read!");
